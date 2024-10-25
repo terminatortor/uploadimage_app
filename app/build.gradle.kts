@@ -1,3 +1,4 @@
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -34,6 +35,7 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
